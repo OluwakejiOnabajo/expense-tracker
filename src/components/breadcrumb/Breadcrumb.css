@@ -1,0 +1,35 @@
+
+.breadcrumb{
+    padding: 10px 0;
+    font-size: 14px;
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+}
+
+.breadcrumb .breadcrumb-icon{
+    margin-right: 10px;
+    background-color: var(--primary);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #F1F2F8;
+}
+
+.breadcrumb .detail{
+display: inline-block;
+text-align: left;
+align-items: left;
+justify-content: left;
+}
+
+
+.breadcrumb h3 {
+    margin: 0 0 -5px 0;
+    }
+
+    .sbreadcrumb .detail small {
+        display: block;
+        color: var(--gray-color);
+        }

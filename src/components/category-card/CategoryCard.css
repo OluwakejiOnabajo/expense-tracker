@@ -1,0 +1,72 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card-item {
+    min-width: 120px;
+    padding: .8rem .5rem;
+    margin-bottom: 1rem;
+    margin: 10px;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(62, 55, 55, 0.3);
+    -o-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+    border-radius: 5px;
+  }
+
+  .card-icon{
+    margin-top: 10px;
+    font-size: 15px;
+    display: inline;
+    padding-right: 10px;
+  }
+  
+  .card-details{
+    float: right;
+  }
+
+  .card-details .card-title{
+    display: inline;
+    word-wrap: break-word;
+  }
+
+  .card-details small{
+    display: block;
+    font-size: 50%;
+  }
+
+  .card-primary{
+    background-color: #00bcd4;
+    color: white;
+  }
+
+  .card-success{
+    background-color: #4caf50;
+    color: white;
+  }
+
+    .card-danger{
+        background-color: #f44336;
+        color: white;
+    }
+
+    .card-warning{
+        background-color: #ffeb3b;
+        color: white;
+    }
+
+    .card-info{
+        background-color: #2196f3;
+        color: white;
+    }
+    
+    .card-light{
+        background-color: #f1f2f8;
+        color: #333;
+    }
+
+    .card-dark{
+        background-color: #212121;
+        color: white;
+    }

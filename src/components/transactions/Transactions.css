@@ -1,0 +1,84 @@
+
+ .tranx-card {
+    width:100%;
+    position: relative;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+    -o-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+    .tranx-card .tranx {
+        display: inline;
+    }
+
+    .tranx-card .tranx .cat{
+        margin: 0;
+    }
+
+    .tranx-card .tranx p{
+       margin: 0;
+       font-size: 14px;
+    }
+
+    .tranx-card .tranx small{
+        font-size: 12px;
+     }
+
+
+    .tranx-card .amount {
+       display: inline;
+       float: right;
+       margin-top: -20px;
+    }
+
+        .tranx-card .card-link a {
+            text-decoration: none;
+            position: relative;
+            padding: 10px 0px;
+        }
+
+        .tranx-card .card-link a:after {
+            top: 30px;
+            content: "";
+            display: block;
+            height: 2px;
+            left: 50%;
+            position: absolute;
+            width: 0;
+
+            -webkit-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+            -moz-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+            -o-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+            transition: width 0.3s ease 0s, left 0.3s ease 0s;
+        }
+
+        .tranx-card .card-link a:hover:after { 
+            width: 100%; 
+            left: 0; 
+        }
+
+/* 
+.tranx-card-light {
+    border: 1px solid #eee;
+}
+
+    .tranx-card-light .card-title, .tranx-card-light .card-link a {
+        color: #636363;
+    }
+    
+    .tranx-card-light .card-text {
+        color: #7b7b7b;
+    }
+
+    .tranx-card-light .card-link {
+        border-top: 1px solid #eee;
+    }
+
+        .tranx-card-light .card-link a:after {
+            background:#636363;
+        } */
