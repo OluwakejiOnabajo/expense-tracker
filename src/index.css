@@ -18,10 +18,33 @@ font-family: 'Poppins', sans-serif;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.content{
+.wrapper{
+  display: flex;
+}
+
+.wrapper .content-wrapper {
+  background-color: #f8f9fc;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.wrapper .content-wrapper .content {
+  flex: 1 0 auto;
+}
+
+.container {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* .content{
   padding: 10px 50px;
   margin-left: 210px;
-}
+} */
 
 @media screen and (max-width: 900px) {
   .content{

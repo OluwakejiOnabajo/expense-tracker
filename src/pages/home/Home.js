@@ -7,14 +7,18 @@ import CategoryCard from '../../components/category-card/CategoryCard';
 
 const Home = () => {
   return (
-    <div className='home'>
-    <Navbar />
-    <Sidebar />
+    <div className='wrapper'>
+      <Sidebar />
+      <div className='content-wrapper'>
         <div className='content'>
-          <Breadcrumb />
-          <CategoryCard />
-          <Transaction />
+          <Navbar />
+          <div className='container'>
+            <Breadcrumb />
+            <CategoryCard />
+            <Transaction />
+          </div>
         </div>
+      </div>
     </div>
   )
 }
